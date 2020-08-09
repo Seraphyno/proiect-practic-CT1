@@ -13,7 +13,7 @@ public class HibernateConfiguration {
 
     private static SessionFactory sessionFactory;
 
-    public SessionFactory getSessionFactory() {
+    public static SessionFactory getSessionFactory() {
         if (sessionFactory == null) {
             try {
                 // creez o configuratie custom pt hibernate
