@@ -133,7 +133,8 @@ public class OrchestratorService {
         System.out.println("1 - Input file");
         System.out.println("2 - Get all entries");
         System.out.println("3 - Get today's entries");
-        System.out.println("4 - Generate Z report");
+        // TODO - tema
+        System.out.println("4 - Display total income for today");
         System.out.println("5 - Show menu");
         System.out.println("\n");
     }
