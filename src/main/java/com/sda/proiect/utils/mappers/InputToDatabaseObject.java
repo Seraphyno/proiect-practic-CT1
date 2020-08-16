@@ -13,6 +13,7 @@ public class InputToDatabaseObject {
 
     public static Invoice map(InvoiceInput input) {
         Invoice result = new Invoice();
+
         result.setName(input.getItemType().getPrettyName());
         result.setQuantity(input.getQuantity());
         result.setTotalPrice(computePrice(input));

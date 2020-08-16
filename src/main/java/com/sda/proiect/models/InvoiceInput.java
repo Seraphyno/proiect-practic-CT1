@@ -1,7 +1,6 @@
 package com.sda.proiect.models;
 
 public class InvoiceInput {
-
     private Integer quantity;
     private ItemType itemType;
 
